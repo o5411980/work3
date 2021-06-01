@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styleEx3test.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <!--ロゴとメニューを横並びさせる為に、ヘッダーも clearfix化　-->
+    <header class="header clearfix">
+      <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+      <nav>
+        <!--clearfixを追記-->
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="#">事業内容</a></li>
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/TOP.png" class="image_area">
+      <div class="wrapper clearfix"> <!--サイドメニューとコンテンツをfloat横並びしてclearfixするため追加-->
+        <aside class="side-menu">
+          <nav>
+            <ul>
+              <li><a href="#">事業内容</a></li>
+              <li><a href="#">会社概要</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <p class="banner">
+            <a href="#">
+              <img src="./images/banner.png">
+            </a>
+          </p>
+        </aside>
+        <article class="content">
+          <h1>content領域content領域content領域</h1>
+        </article>
+      </div>
+    <footer class="footer">
+
+    </footer>
+  </body>
+</html>
