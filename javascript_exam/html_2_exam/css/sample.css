@@ -1,0 +1,120 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+}
+/* .container {  /*元々bodyにあったcssを*/
+/*  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+} */
+/* ここから */
+header {
+  background-color: #2B2B2B;
+  height: 50px;
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+}
+header ul {
+  list-style: none;
+}
+header ul a {
+  margin-top: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+header li {
+  float: left;
+  padding-right: 15px;
+}
+header .right{
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* #under {
+  clear: both;
+} */
+/* ここまでがheader部分の実装 */
+.main-header {
+  padding-top: 50px;
+  padding-bottom: 15%;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+/*  display: table; */
+}
+.main-header .achieve {
+/*  display: table-cell;
+  text-align: center;
+  vertical-align: middle; */
+/*  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit; */
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, +140%);
+}
+.main-header img {
+  width: 13%;
+}
+.about h1 {
+/* About Achieve部分の実装 */
+  font-size: 1.5rem;
+}
+.about p {
+  font-size: 0.8rem;
+}
+/* ここから */
+.function {
+  background-color: #D3D3D3;
+}
+.function h1 {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.function-images {
+  display:  table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+}
+.function-image {
+  display: table-cell;
+}
+.function-image img {
+  width: 40%;
+}
+.function-image p {
+  font-size: 0.5rem;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+/* footer部分の実装 */
+  background-color: #283A4B;
+  height: 70px;
+  display: table;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.8rem;
+  display: table-cell;
+  vertical-align: middle;
+}
