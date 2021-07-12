@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/work-style.css">
+    <link rel="stylesheet" href="./css/work-contact.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <div class="container"> <!-- footer固定の親要素として追加-->
+      <!--ロゴとメニューを横並びさせる為に、ヘッダーも clearfix化　-->
+
+
+        <div class="wrapper clearfix"> <!--サイドメニューとコンテンツをfloat横並びしてclearfixするため追加-->
+          <aside class="side-menu">
+            <nav>
+              <ul>
+                <li><a href="business.html">お名前</a></li>
+                <li><a href="company.html">メールアドレス</a></li>
+                <li  class="point"><a href="contact.html">お問い合わせ内容</a></li>
+              </ul>
+            </nav>
+          </aside>
+            <form action="">
+              <table class="contact">
+                <tr>
+                  <th> </th>
+                  <td><input type="text" class="form"></td>
+                </tr>
+                <tr>
+                  <th> </th>
+                  <td><input type="text" class="form"></td>
+                </tr>
+                <tr>
+                  <th> </th>
+                  <td>
+                    <textarea class="form"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <th colspan="2">
+                    <div class="Submit_area">
+                      <input type="submit" value="送信" id="Submit">
+                    </div>
+                  </th>
+                </tr>
+              </table>
+            </form>
+        </div>
+
+    </div>  <!-- footer固定の親要素として追加したdiv(container)の閉じタグ -->
+  </body>
+</html>
