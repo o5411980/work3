@@ -28,3 +28,10 @@
 #Submit:hover {
   opacity: 0.6;
 }
+.form_content{
+  height: 20rem;
+  width: 480px;
+}
+#datepicker {
+  font-size: 2rem;
+}
